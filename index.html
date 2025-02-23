@@ -3,28 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>متجري الإلكتروني</title>
+    <title>متجري الإلكتروني - DressCodeMe</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <img src="images/logo.png" alt="شعار المتجر">
+        <div class="logo">
+            <img src="images/logo.png" alt="شعار المتجر">
+        </div>
         <nav>
             <ul>
-                <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="about.html">من نحن</a></li>
-                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">عنا</a></li>
+                <li><a href="#">اتصل بنا</a></li>
             </ul>
         </nav>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
     </header>
 
-    <main>
-        <h1>مرحبًا بكم في متجري الإلكتروني</h1>
-        <section id="products">
-            <!-- سيتم ملء هذا القسم بالمنتجات من قاعدة البيانات -->
-        </section>
-    </main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>أحدث صيحات الموضة</h1>
+            <p>اكتشف تشكيلتنا الجديدة من الملابس والإكسسوارات.</p>
+            <a href="#" class="btn">تسوق الآن</a>
+        </div>
+    </section>
 
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2>المنتجات المميزة</h2>
+        <div class="products-container">
+            <div class="product">
+                <img src="images/product1.jpg" alt="منتج 1">
+                <h3>منتج 1</h3>
+                <p>وصف المنتج 1</p>
+                <p class="price">100 ريال</p>
+                <a href="#" class="btn">أضف إلى السلة</a>
+            </div>
+            <div class="product">
+                <img src="images/product2.jpg" alt="منتج 2">
+                <h3>منتج 2</h3>
+                <p>وصف المنتج 2</p>
+                <p class="price">150 ريال</p>
+                <a href="#" class="btn">أضف إلى السلة</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <p>© 2023 متجري الإلكتروني. جميع الحقوق محفوظة.</p>
     </footer>
